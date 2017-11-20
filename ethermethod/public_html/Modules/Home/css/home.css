@@ -1,7 +1,37 @@
 
 body {
+    height: 90%;
     background-image: url("../img/marth.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: right center;
+    background-blend-mode: luminosity;
+    will-change: opacity;
+}
+
+hr {
+    width: 50%;
+}
+
+.nav-button-panel {
+    text-align: center;
+}
+
+.nav-button {
+    background-color: darkslategray;
+    color: aliceblue;
+    font-size: 40px;
+    padding: 15px;
+    border-radius: 40px;
+    transition-duration: 0.4s;
+}
+
+.nav-button:hover {
+    background-color: lightblue;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.nav-button-container {
+    padding: 0px 15px;
 }
