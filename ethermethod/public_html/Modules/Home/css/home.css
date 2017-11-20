@@ -2,11 +2,14 @@
 body {
     height: 90%;
     background-image: url("../img/marth.png");
+    background-blend-mode: luminosity;
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: right center;
-    background-blend-mode: luminosity;
-    will-change: opacity;
+    animation-name: moveImageLeftToRight;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
 }
 
 hr {
@@ -34,4 +37,13 @@ hr {
 
 .nav-button-container {
     padding: 0px 15px;
+}
+
+@keyframes moveImageLeftToRight {
+    75% {
+        background-position: left center;
+    }
+    100% {
+        background-position: right center;
+    }
 }
