@@ -15,7 +15,7 @@ hr {
     background: #00536024;
 }
 
-.guide-container {
+.guide-button-container {
     text-align: center;
 }
 
@@ -37,4 +37,16 @@ hr {
     font-size: 17px;
     padding-left: 10px;
     font-style: italic;
+}
+
+.guide-container {
+    color: white;
+    margin: 60px;
+    background: #00536024;
+}
+
+.guide {
+    margin: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
