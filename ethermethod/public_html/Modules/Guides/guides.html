@@ -2,18 +2,34 @@
     <head>
         <title>Guides - The Ether Method</title>
         <link rel="stylesheet" type="text/css" href="../../public/css/site.css">
+        <link rel="stylesheet" type="text/css" href="css/guides.css">
         <link rel="stylesheet" type="text/css" href="css/home.css">
         <script src="../../public/js/jquery-3.2.1.min.js"></script>
-        <script src="js/home.js"></script>
+        <script src="js/guides.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     </head>
     <body>
+        <!--navbar-->
+        <div class="navbar">
+            <ul>
+                <li><a onclick="location.href='../Home/index.html'">Home</a></li>
+                <li><a class="active" href="#news">Guides</a></li>
+                <li><a href="#contact">Videos</a></li>
+                <li><a href="#about">About Me</a></li>
+            </ul>
+        </div>
+
         <!--titles-->
-        <div id="title" class="title title-home">
+        <div id="title" class="title">
             Guides
         </div>
         <hr>
-        <div id="subtitle" class="subtitle subtitle-home">
-            Read • Learn • Win
+        <div id="subtitle" class="subtitle">
+            <span id="read" class="subtitle-label">Read </span> 
+            <span id="bullet1" class="subtitle-label">• </span> 
+            <span id="learn" class="subtitle-label">Learn </span> 
+            <span id="bullet2" class="subtitle-label">• </span> 
+            <span id="win" class="subtitle-label">Win </span> 
         </div>
 
         <!--nav buttons-->
@@ -28,6 +44,6 @@
                 <button id="navButton3" class="nav-button" type="button" onclick="alert('Hello world!')">About Me</button>    
             </span>
         </div>
-        
+
     </body>
 </html>

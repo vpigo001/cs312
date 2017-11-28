@@ -1,0 +1,10 @@
+hr {
+    width: 0%;
+    opacity: 0;
+    transition: 2s ease-in;
+}
+
+.subtitle-label {
+    opacity: 0;
+    transition: 2s ease-in;
+}
