@@ -1,0 +1,48 @@
+hr {
+    width: 0%;
+    opacity: 0;
+    transition: 2s ease-in;
+}
+
+a {
+    color: mediumorchid;
+    text-decoration: none;
+}
+
+.about-panel {
+    margin-right: 225px;
+    margin-left: 225px;
+    background: #00536024;
+    color: white;
+    line-height: 1.35;
+}
+
+.about-title {
+    font-size: 20px;
+    border-right: 1px solid #bbb;
+}
+
+.about-container {
+    color: white;
+    margin: 60px;
+    background: #00536024;
+}
+
+.about {
+    margin: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    white-space: pre-wrap;
+}
+
+.game {
+    color: lightsalmon;
+}
+
+.bio-pic {
+    max-width: 125px;
+    float: left;
+    border: #75000c;
+    border-style: double;
+    margin-right: 15px;
+}
