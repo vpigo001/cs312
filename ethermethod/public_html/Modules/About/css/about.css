@@ -5,7 +5,7 @@ hr {
 }
 
 a {
-    color: mediumorchid;
+    color: olivedrab;
     text-decoration: none;
 }
 
@@ -45,4 +45,18 @@ a {
     border: #75000c;
     border-style: double;
     margin-right: 15px;
+}
+
+.email-icon {
+    max-width: 50px;
+    margin-top: 10px;
+}
+
+.email-container {
+    text-align: center;
+}
+
+.email-label {
+    color: white;
+    text-align: center;
 }
