@@ -68,6 +68,7 @@ hr {
     outline: beige;
     outline-style: solid;
     padding: 10px;
+    line-height: 1.25;
 }
 
 .video-description-container {
