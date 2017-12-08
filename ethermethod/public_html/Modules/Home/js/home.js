@@ -1,5 +1,3 @@
-src = "../../../public/js/jquery-3.2.1.min.js";
-
 window.onload = function () {
     setTimeout(animateHomePage, 1000);
 };
@@ -11,24 +9,24 @@ animateHomePage = function () {
 };
 
 removeGrayscale = function () {
-    $("body,html").css("background-blend-mode", "unset");
+    document.querySelector("body").classList.add("greyscale-removed");
 };
 
 displayTitles = function () {
-    $("#title").css("opacity", 1);
-    $("#subtitle").css("opacity", 1);
-    $("hr").css("opacity", 1);
-    $("hr").css("width", "50%");
+    document.querySelector("#title").style.opacity = 1;
+    document.querySelector("#subtitle").style.opacity = 1;
+    document.querySelector("hr").style.opacity = 1;
+    document.querySelector("hr").style.width = "50%";
 };
 
 displayNavButtons = function () {
     //fade in the nav buttons in a staggered sequence
     setTimeout(function () {
-        $("#navButton1").css("opacity", 1);
+        document.querySelector("#navButton1").style.opacity = 1;
         setTimeout(function () {
-            $("#navButton2").css("opacity", 1);
+            document.querySelector("#navButton2").style.opacity = 1;
             setTimeout(function () {
-                $("#navButton3").css("opacity", 1);
+                document.querySelector("#navButton3").style.opacity = 1;;
             }, 500);
         }, 500);
     }, 500);
@@ -36,9 +34,9 @@ displayNavButtons = function () {
     //make the transition property faster for "hover" transitions.
     //had to apply a new class because changing the property directly didn't work.
     setTimeout(function () {
-        $("#navButton1").addClass("nav-button-loaded");
-        $("#navButton2").addClass("nav-button-loaded");
-        $("#navButton3").addClass("nav-button-loaded");
+        document.querySelector("#navButton1").classList.add("nav-button-loaded");
+        document.querySelector("#navButton2").classList.add("nav-button-loaded");
+        document.querySelector("#navButton3").classList.add("nav-button-loaded");
     }, 1600);
 
 };

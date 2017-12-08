@@ -3,8 +3,8 @@ window.onload = function () {
 };
 
 displayTitles = function () {
-    $("#title").css("opacity", 1);
-    $("#subtitle").css("opacity", 1);
-    $("hr").css("opacity", 1);
-    $("hr").css("width", "35%");
+    document.querySelector("#title").style.opacity = 1;
+    document.querySelector("#subtitle").style.opacity = 1;
+    document.querySelector("hr").style.opacity = 1;
+    document.querySelector("hr").style.width = "35%";
 };

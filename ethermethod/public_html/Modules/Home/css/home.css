@@ -18,6 +18,10 @@ hr {
     transition: 2s ease-in;
 }
 
+.greyscale-removed {
+    background-blend-mode: unset;
+}
+
 .nav-button-panel {
     text-align: center;
     margin-top: 25px;
